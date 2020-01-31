@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		02B6B2633EA233CD9A92DB41 /* Pods_HitchHiker_HitchHikerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C938E8D7CD4E936878E3817D /* Pods_HitchHiker_HitchHikerUITests.framework */; };
+		895BBA8334B2C72C3AE80721 /* Pods_HitchHikerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85379016443251EF0D32A4B0 /* Pods_HitchHikerTests.framework */; };
+		A4D18D88A8691CD56E4EE208 /* Pods_HitchHiker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 960C4972A8B1A96C513E7345 /* Pods_HitchHiker.framework */; };
 		E1C00B0E23E26D68005B1993 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C00B0D23E26D68005B1993 /* AppDelegate.swift */; };
 		E1C00B1023E26D68005B1993 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C00B0F23E26D68005B1993 /* SceneDelegate.swift */; };
 		E1C00B1223E26D68005B1993 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C00B1123E26D68005B1993 /* ContentView.swift */; };
@@ -35,6 +38,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1B96466918AF587F7E768AFB /* Pods-HitchHiker-HitchHikerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HitchHiker-HitchHikerUITests.debug.xcconfig"; path = "Target Support Files/Pods-HitchHiker-HitchHikerUITests/Pods-HitchHiker-HitchHikerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		2EC26E09EC293D0B57B642DF /* Pods-HitchHikerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HitchHikerTests.release.xcconfig"; path = "Target Support Files/Pods-HitchHikerTests/Pods-HitchHikerTests.release.xcconfig"; sourceTree = "<group>"; };
+		316AF0C607B967EAAA056A04 /* Pods-HitchHiker-HitchHikerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HitchHiker-HitchHikerUITests.release.xcconfig"; path = "Target Support Files/Pods-HitchHiker-HitchHikerUITests/Pods-HitchHiker-HitchHikerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		85379016443251EF0D32A4B0 /* Pods_HitchHikerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HitchHikerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E6DD8D9A04001C43AE6E1D0 /* Pods-HitchHiker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HitchHiker.debug.xcconfig"; path = "Target Support Files/Pods-HitchHiker/Pods-HitchHiker.debug.xcconfig"; sourceTree = "<group>"; };
+		960C4972A8B1A96C513E7345 /* Pods_HitchHiker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HitchHiker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A316C7F6B9724A0931A6724 /* Pods-HitchHikerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HitchHikerTests.debug.xcconfig"; path = "Target Support Files/Pods-HitchHikerTests/Pods-HitchHikerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C938E8D7CD4E936878E3817D /* Pods_HitchHiker_HitchHikerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HitchHiker_HitchHikerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1C00B0A23E26D68005B1993 /* HitchHiker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HitchHiker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1C00B0D23E26D68005B1993 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E1C00B0F23E26D68005B1993 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +60,7 @@
 		E1C00B2B23E26D6D005B1993 /* HitchHikerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HitchHikerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1C00B2F23E26D6D005B1993 /* HitchHikerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HitchHikerUITests.swift; sourceTree = "<group>"; };
 		E1C00B3123E26D6D005B1993 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA6BD9C89D772A6EB1492116 /* Pods-HitchHiker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HitchHiker.release.xcconfig"; path = "Target Support Files/Pods-HitchHiker/Pods-HitchHiker.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4D18D88A8691CD56E4EE208 /* Pods_HitchHiker.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				895BBA8334B2C72C3AE80721 /* Pods_HitchHikerTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +84,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02B6B2633EA233CD9A92DB41 /* Pods_HitchHiker_HitchHikerUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9F021103B3FC374F42FE9B0B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8E6DD8D9A04001C43AE6E1D0 /* Pods-HitchHiker.debug.xcconfig */,
+				EA6BD9C89D772A6EB1492116 /* Pods-HitchHiker.release.xcconfig */,
+				1B96466918AF587F7E768AFB /* Pods-HitchHiker-HitchHikerUITests.debug.xcconfig */,
+				316AF0C607B967EAAA056A04 /* Pods-HitchHiker-HitchHikerUITests.release.xcconfig */,
+				9A316C7F6B9724A0931A6724 /* Pods-HitchHikerTests.debug.xcconfig */,
+				2EC26E09EC293D0B57B642DF /* Pods-HitchHikerTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B2B675EF70F03315B66764A0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				960C4972A8B1A96C513E7345 /* Pods_HitchHiker.framework */,
+				C938E8D7CD4E936878E3817D /* Pods_HitchHiker_HitchHikerUITests.framework */,
+				85379016443251EF0D32A4B0 /* Pods_HitchHikerTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E1C00B0123E26D68005B1993 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +122,8 @@
 				E1C00B2323E26D6D005B1993 /* HitchHikerTests */,
 				E1C00B2E23E26D6D005B1993 /* HitchHikerUITests */,
 				E1C00B0B23E26D68005B1993 /* Products */,
+				9F021103B3FC374F42FE9B0B /* Pods */,
+				B2B675EF70F03315B66764A0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -143,9 +184,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E1C00B3423E26D6D005B1993 /* Build configuration list for PBXNativeTarget "HitchHiker" */;
 			buildPhases = (
+				67D1F6A712CC6A952577149D /* [CP] Check Pods Manifest.lock */,
 				E1C00B0623E26D68005B1993 /* Sources */,
 				E1C00B0723E26D68005B1993 /* Frameworks */,
 				E1C00B0823E26D68005B1993 /* Resources */,
+				2F32A138C2948665EBED9786 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -160,6 +203,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E1C00B3723E26D6D005B1993 /* Build configuration list for PBXNativeTarget "HitchHikerTests" */;
 			buildPhases = (
+				ED56AAC5C3A27708BA2636F7 /* [CP] Check Pods Manifest.lock */,
 				E1C00B1C23E26D6D005B1993 /* Sources */,
 				E1C00B1D23E26D6D005B1993 /* Frameworks */,
 				E1C00B1E23E26D6D005B1993 /* Resources */,
@@ -178,9 +222,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E1C00B3A23E26D6D005B1993 /* Build configuration list for PBXNativeTarget "HitchHikerUITests" */;
 			buildPhases = (
+				85574069A7FBFA4D2ACF8019 /* [CP] Check Pods Manifest.lock */,
 				E1C00B2723E26D6D005B1993 /* Sources */,
 				E1C00B2823E26D6D005B1993 /* Frameworks */,
 				E1C00B2923E26D6D005B1993 /* Resources */,
+				0DD4F715EA83BA61BF5BEF9E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -261,6 +307,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0DD4F715EA83BA61BF5BEF9E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HitchHiker-HitchHikerUITests/Pods-HitchHiker-HitchHikerUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HitchHiker-HitchHikerUITests/Pods-HitchHiker-HitchHikerUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HitchHiker-HitchHikerUITests/Pods-HitchHiker-HitchHikerUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2F32A138C2948665EBED9786 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HitchHiker/Pods-HitchHiker-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HitchHiker/Pods-HitchHiker-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HitchHiker/Pods-HitchHiker-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		67D1F6A712CC6A952577149D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HitchHiker-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		85574069A7FBFA4D2ACF8019 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HitchHiker-HitchHikerUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ED56AAC5C3A27708BA2636F7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HitchHikerTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E1C00B0623E26D68005B1993 /* Sources */ = {
@@ -432,6 +581,7 @@
 		};
 		E1C00B3523E26D6D005B1993 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E6DD8D9A04001C43AE6E1D0 /* Pods-HitchHiker.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -452,6 +602,7 @@
 		};
 		E1C00B3623E26D6D005B1993 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA6BD9C89D772A6EB1492116 /* Pods-HitchHiker.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -472,6 +623,7 @@
 		};
 		E1C00B3823E26D6D005B1993 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A316C7F6B9724A0931A6724 /* Pods-HitchHikerTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -494,6 +646,7 @@
 		};
 		E1C00B3923E26D6D005B1993 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2EC26E09EC293D0B57B642DF /* Pods-HitchHikerTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -516,6 +669,7 @@
 		};
 		E1C00B3B23E26D6D005B1993 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B96466918AF587F7E768AFB /* Pods-HitchHiker-HitchHikerUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -536,6 +690,7 @@
 		};
 		E1C00B3C23E26D6D005B1993 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 316AF0C607B967EAAA056A04 /* Pods-HitchHiker-HitchHikerUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
