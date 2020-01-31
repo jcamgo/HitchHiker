@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -18,6 +18,7 @@
 		E1C00B1A23E26D6D005B1993 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1C00B1823E26D6D005B1993 /* LaunchScreen.storyboard */; };
 		E1C00B2523E26D6D005B1993 /* HitchHikerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C00B2423E26D6D005B1993 /* HitchHikerTests.swift */; };
 		E1C00B3023E26D6D005B1993 /* HitchHikerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C00B2F23E26D6D005B1993 /* HitchHikerUITests.swift */; };
+		E1C00B4223E3E07F005B1993 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1C00B4123E3E07F005B1993 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,7 @@
 		E1C00B2B23E26D6D005B1993 /* HitchHikerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HitchHikerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1C00B2F23E26D6D005B1993 /* HitchHikerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HitchHikerUITests.swift; sourceTree = "<group>"; };
 		E1C00B3123E26D6D005B1993 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1C00B4123E3E07F005B1993 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		EA6BD9C89D772A6EB1492116 /* Pods-HitchHiker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HitchHiker.release.xcconfig"; path = "Target Support Files/Pods-HitchHiker/Pods-HitchHiker.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -101,7 +103,6 @@
 				9A316C7F6B9724A0931A6724 /* Pods-HitchHikerTests.debug.xcconfig */,
 				2EC26E09EC293D0B57B642DF /* Pods-HitchHikerTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -143,6 +144,7 @@
 				E1C00B0D23E26D68005B1993 /* AppDelegate.swift */,
 				E1C00B0F23E26D68005B1993 /* SceneDelegate.swift */,
 				E1C00B1123E26D68005B1993 /* ContentView.swift */,
+				E1C00B4123E3E07F005B1993 /* Main.storyboard */,
 				E1C00B1323E26D6D005B1993 /* Assets.xcassets */,
 				E1C00B1823E26D6D005B1993 /* LaunchScreen.storyboard */,
 				E1C00B1B23E26D6D005B1993 /* Info.plist */,
@@ -287,6 +289,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E1C00B1A23E26D6D005B1993 /* LaunchScreen.storyboard in Resources */,
+				E1C00B4223E3E07F005B1993 /* Main.storyboard in Resources */,
 				E1C00B1723E26D6D005B1993 /* Preview Assets.xcassets in Resources */,
 				E1C00B1423E26D6D005B1993 /* Assets.xcassets in Resources */,
 			);
