@@ -16,15 +16,47 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="H6C-aM-s47">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="862"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <connections>
+                                    <outlet property="delegate" destination="lTp-hd-4vQ" id="LPD-Pc-f3C"/>
+                                </connections>
                             </mapView>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="SYD-gK-LUT">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3NH-N1-g2j">
+                                        <rect key="frame" x="16" y="52" width="30" height="24"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" image="menuSliderBtn"/>
+                                    </button>
+                                    <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="Lyj-1c-V3b">
+                                        <rect key="frame" x="123" y="46" width="168.5" height="36"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="HITCH" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fhk-tf-b3z">
+                                                <rect key="frame" x="0.0" y="0.0" width="80.5" height="36"/>
+                                                <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="26"/>
+                                                <color key="textColor" red="0.84705882352941175" green="0.27843137254901962" blue="0.11764705882352941" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="HIKER" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rls-dg-G43">
+                                                <rect key="frame" x="88.5" y="0.0" width="80" height="36"/>
+                                                <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="26"/>
+                                                <color key="textColor" red="0.22352941176470587" green="0.22352941176470587" blue="0.22352941176470587" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstItem="H6C-aM-s47" firstAttribute="trailing" secondItem="mSc-Qn-76S" secondAttribute="trailing" id="GAy-We-xWa"/>
                             <constraint firstItem="H6C-aM-s47" firstAttribute="top" secondItem="6Hz-7v-KF9" secondAttribute="top" id="Xwt-xe-YJp"/>
                             <constraint firstItem="H6C-aM-s47" firstAttribute="leading" secondItem="mSc-Qn-76S" secondAttribute="leading" id="f9o-vm-2x3"/>
-                            <constraint firstItem="H6C-aM-s47" firstAttribute="bottom" secondItem="mSc-Qn-76S" secondAttribute="bottom" id="nQs-sa-4MI"/>
+                            <constraint firstAttribute="bottom" secondItem="H6C-aM-s47" secondAttribute="bottom" id="lB1-oV-ibl"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="mSc-Qn-76S"/>
                     </view>
@@ -34,4 +66,7 @@
             <point key="canvasLocation" x="137.68115942028987" y="153.34821428571428"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="menuSliderBtn" width="30" height="24"/>
+    </resources>
 </document>
